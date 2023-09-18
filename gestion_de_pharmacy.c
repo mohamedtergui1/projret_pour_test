@@ -94,8 +94,8 @@ void modifer(){
        printf("entree le code de medicament tu veux te modifer:");scanf("%d",&n);
    for (int i=0;i<nomberDeMedicament;i++){
     if (n==codeDeMedicament[i]){
-            printf("\nentree la nouvelle nom de medicament:");scanf("%s",nomDeMedicament[i]);
-        printf( "entree la nouvelle prix de ");scanf("%f",prixDeMedicament[i]);
+            printf("\nentree la nouvelle nom de medicament:");scanf("%s",&nomDeMedicament[i]);
+        printf( "entree la nouvelle prix de ");scanf("%f",&prixDeMedicament[i]);
     }
    }
   int s;
